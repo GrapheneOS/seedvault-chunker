@@ -11,7 +11,7 @@ dependencies {
     implementation(kotlin("stdlib-jdk8"))
     implementation(project(":lib"))
     implementation("com.github.ajalt.clikt:clikt:4.4.0")
-    implementation("org.apache.commons:commons-compress:1.26.2")
+    implementation("org.apache.commons:commons-compress:1.27.1")
     implementation("com.github.luben:zstd-jni:1.5.6-9")
 }
 
