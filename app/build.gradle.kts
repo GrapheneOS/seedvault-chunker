@@ -12,7 +12,7 @@ dependencies {
     implementation(project(":lib"))
     implementation("com.github.ajalt.clikt:clikt:4.4.0")
     implementation("org.apache.commons:commons-compress:1.26.2")
-    implementation("com.github.luben:zstd-jni:1.5.6-3")
+    implementation("com.github.luben:zstd-jni:1.5.6-9")
 }
 
 kotlin {
