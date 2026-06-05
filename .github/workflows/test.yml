@@ -31,7 +31,7 @@ jobs:
         run: ./gradlew uberJar check
 
       - name: Upload JAR
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: seedvault-chunker-${{ github.sha }}-jar
           path: |
